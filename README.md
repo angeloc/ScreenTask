@@ -7,7 +7,7 @@ Based on:
 * https://github.com/EslaMx7/ScreenTask
 * https://github.com/ahmadomar/ScreenTask
 
-This version keeps everithing in memory (so much more speed) and use a multithreaded appoch: it can serve several tens of users.
+This version keeps everithing in memory (so much more speed) and use a multithreaded approach: it can serve several tens of users.
 
 
 ------------------------------
