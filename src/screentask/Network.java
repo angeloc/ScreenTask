@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package screentask;
 
 import java.net.Inet4Address;
@@ -19,6 +18,7 @@ import javax.swing.JComboBox;
  * @author Ahmad
  */
 public class Network {
+
     public static void LoadIps(JComboBox combo) throws SocketException {
         Enumeration<NetworkInterface> n = NetworkInterface.getNetworkInterfaces();
         for (; n.hasMoreElements();) {
@@ -35,7 +35,7 @@ public class Network {
             }
         }
     }
-    
+
     public static final boolean checkIPv4(final String ip) {
         boolean isIPv4;
         try {

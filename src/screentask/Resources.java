@@ -9,20 +9,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.Inet4Address;
-import java.net.InetAddress;
 import java.net.MalformedURLException;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.UnknownHostException;
 import java.util.Calendar;
-import java.util.Enumeration;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JComboBox;
 import javax.swing.JTextArea;
 
 /**
@@ -49,20 +38,20 @@ public class Resources {
         reader.close();
         return fileData.toString();
     }
-    
-   
-    public String appStartUpPath() throws URISyntaxException, MalformedURLException{
+
+    public String appStartUpPath() throws URISyntaxException, MalformedURLException {
         String path = getClass().getProtectionDomain().getCodeSource().getLocation().getPath();
         path = path.substring(0, path.lastIndexOf("/"));
         return path;
     }
-    
+
     /**
      * Return the path delimiter
-     * @return 
+     *
+     * @return
      */
-    public static String getPathDelimiter(){
+    public static String getPathDelimiter() {
         return System.getProperty("file.separator");
     }
-    
+
 }
