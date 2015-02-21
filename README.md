@@ -2,13 +2,12 @@ ScreenTask
 ==========
 Desktop App in Java to Share Your Screen With Your Friends Inside The Internal Network.
 
-Thanks for Eslam Hamouda ;) for develop windows application ( https://github.com/EslaMx7/ScreenTask )
+Based on: 
 
-After that i have developed Generic screentask application that works in windows and linux ubuntu
+* https://github.com/EslaMx7/ScreenTask
+* https://github.com/ahmadomar/ScreenTask
 
-
-### > [Download ZIP Archive (380 KB)](http://goo.gl/iK4Alw)
-
+This version keeps everithing in memory (so much more speed) and use a multithreaded appoch: it can serve several tens of users.
 
 
 ------------------------------
@@ -17,28 +16,4 @@ After that i have developed Generic screentask application that works in windows
 - WebUI So Clients Doesn't Need Any Additional Software (Only Web Browser)
 - Make Your Session Private Using Basic Authentication (User::Password)
 - Unlimited Number Of Connected Clients
-- Work in any operating system not tested in mac
-
------------------------
-### Ubuntu screenshots:
-
-![Screen Task Main Window](https://raw2.github.com/ahmadomar/ScreenTask/master/ubuntu1.png)
-![Another window](https://raw2.github.com/ahmadomar/ScreenTask/master/ubuntu2.png)
-
-
-### Windows screenshots:
-
-![Screen Task Main Window](https://raw2.github.com/ahmadomar/ScreenTask/master/windows1.png)
-![Another window](https://raw2.github.com/ahmadomar/ScreenTask/master/windows2.png)
-
-
-
-
-
-
-
-> Mobile View Supported [Thanks to Bootstrap 3]
-
-> Java is Required [Download NOW!](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-
-> Works On Windows, linux and not tested in mac
+- RWD thank to Bootstrap 3
